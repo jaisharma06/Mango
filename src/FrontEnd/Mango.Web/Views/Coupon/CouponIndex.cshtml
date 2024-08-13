@@ -1,0 +1,33 @@
+@model IEnumerable<Mango.Web.Models.Dto.CouponDto>
+
+<div class="coupon-container">
+    <div class="coupon-header">
+        <span class="coupon-container-title">Coupons List</span>
+    </div>
+    <div class="coupon-content">
+        <div class="coupon-content-header">
+            <button><i class="fa fa-plus" aria-hidden="true"></i></i>Create New Coupon</button>
+        </div>
+
+        <div class="coupon-data-table">
+            <div class="coupon-table-hr">
+                <div><span>Coupon Code</span></div>
+                <div><span>Discount Amount</span></div>
+                <div><span>Minimum Amount</span></div>
+                <div><span></span></div>
+            </div>
+
+            @foreach (var item in Model)
+            {
+                <div class="coupon-table-dr">
+                    <div>@(item.CouponCode)</div>
+                    <div>@(item.DiscountAmount.ToString("c"))</div>
+                    <div>@(item.MinAmount)</div>
+                    <div><button><i class="fa fa-trash"></i></button></div>
+                </div>
+            }
+        </div>
+
+    </div>
+
+</div>

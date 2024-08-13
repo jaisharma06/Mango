@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = G:\Projects\Asp.netCore\Mango\src\FrontEnd\Mango.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/Projects/Asp.netCore/Mango/src/FrontEnd/Mango.Web/Views/Coupon/CouponIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXENvdXBvbkluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/Projects/Asp.netCore/Mango/src/FrontEnd/Mango.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Mango.Web.bundle.scp.css"
     },
     {
+      "Id": "G:\\Projects\\Asp.netCore\\Mango\\src\\FrontEnd\\Mango.Web\\wwwroot\\css\\coupon.css",
+      "PackagePath": "staticwebassets\\css\\coupon.css"
+    },
+    {
+      "Id": "G:\\Projects\\Asp.netCore\\Mango\\src\\FrontEnd\\Mango.Web\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
       "Id": "G:\\Projects\\Asp.netCore\\Mango\\src\\FrontEnd\\Mango.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -28,3 +28,7 @@ G:\Projects\Asp.netCore\Mango\src\FrontEnd\Mango.Web\obj\Debug\net8.0\refint\Man
 G:\Projects\Asp.netCore\Mango\src\FrontEnd\Mango.Web\obj\Debug\net8.0\Mango.Web.pdb
 G:\Projects\Asp.netCore\Mango\src\FrontEnd\Mango.Web\obj\Debug\net8.0\Mango.Web.genruntimeconfig.cache
 G:\Projects\Asp.netCore\Mango\src\FrontEnd\Mango.Web\obj\Debug\net8.0\ref\Mango.Web.dll
+G:\Projects\Asp.netCore\Mango\src\FrontEnd\Mango.Web\obj\Debug\net8.0\Mango.Web.csproj.AssemblyReference.cache
+G:\Projects\Asp.netCore\Mango\src\FrontEnd\Mango.Web\obj\Debug\net8.0\Mango.Web.sourcelink.json
+G:\Projects\Asp.netCore\Mango\src\FrontEnd\Mango.Web\bin\Debug\net8.0\Newtonsoft.Json.dll
+G:\Projects\Asp.netCore\Mango\src\FrontEnd\Mango.Web\obj\Debug\net8.0\Mango.Web.csproj.Up2Date

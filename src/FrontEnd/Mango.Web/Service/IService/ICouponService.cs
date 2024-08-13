@@ -3,7 +3,7 @@ using Mango.Web.Models.Dto;
 
 namespace Mango.Web.Service.IService
 {
-    public interface ICouponService : IBaseService
+    public interface ICouponService
     {
         Task<ResponseDto?> GetCouponAsync(string couponCode);
         Task<ResponseDto?> GetAllCouponsAsync();
