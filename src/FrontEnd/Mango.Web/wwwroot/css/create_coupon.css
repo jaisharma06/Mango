@@ -1,0 +1,125 @@
+.create-coupon-form {
+  border: 1px solid white;
+  padding: 5px;
+  width: 50%;
+  margin: 20px auto;
+  background-color: #212121;
+}
+
+.create-coupon-form h1 {
+  display: block;
+  font-size: 25px;
+  font-weight: 900;
+  width: fit-content;
+  margin: auto auto;
+  color: white;
+}
+
+.separator {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border: 0;
+}
+
+.separator-line {
+  border: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  width: 0;
+  -webkit-animation: separator-width 1s ease-out forwards;
+  animation: separator-width 1s ease-out forwards;
+}
+
+@-webkit-keyframes separator-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes separator-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.create-coupon-content {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  width: 80%;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.create-coupon-row {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-coupon-row label {
+  color: white;
+  width: 20%;
+}
+
+.create-coupon-row input {
+  border-radius: 5px;
+  padding: 7px;
+  width: 70%;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+#back-to-list {
+  text-decoration: none;
+  border: 1px solid white;
+  width: 45%;
+  text-align: center;
+  color: white;
+  height: 40px;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #424242;
+  font-weight: 900;
+}
+
+#back-to-list:hover {
+  color: #212121;
+}
+
+#back-to-list:active {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+#create {
+  text-decoration: none;
+  border: 1px solid white;
+  width: 45%;
+  text-align: center;
+  color: white;
+  height: 40px;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #4cbb17;
+  font-weight: 900;
+}
+
+#create:hover {
+  color: #212121;
+}
+
+#create:active {
+  border-color: rgba(255, 255, 255, 0.6);
+}

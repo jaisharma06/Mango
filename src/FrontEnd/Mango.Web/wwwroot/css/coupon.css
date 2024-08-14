@@ -50,7 +50,7 @@
   justify-content: end;
 }
 
-.coupon-content-header button {
+.coupon-content-header a {
   color: white;
   background-color: #080808;
   border: 1px solid #484848;
@@ -58,18 +58,19 @@
   padding: 10px;
   font-weight: 100;
   font-size: 16px;
+  text-decoration: none;
 }
 
-.coupon-content-header button:hover {
+.coupon-content-header a:hover {
   cursor: pointer;
   border: 1px solid #606060;
 }
 
-.coupon-content-header button:active {
+.coupon-content-header a:active {
   cursor: pointer;
   border: 1px solid #404040;
 }
-.coupon-content-header button i {
+.coupon-content-header a i {
   margin-right: 5px;
 }
 
