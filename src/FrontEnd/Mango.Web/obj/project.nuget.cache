@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LRGpUuLXnSY=",
+  "dgSpecHash": "j6fByDMUuJs=",
   "success": true,
-  "projectFilePath": "G:\\Projects\\Asp.netCore\\Mango\\src\\FrontEnd\\Mango.Web\\Mango.Web.csproj",
+  "projectFilePath": "/Users/jai/Projects/AspCore/Mango/src/FrontEnd/Mango.Web/Mango.Web.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jaish\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "/Users/jai/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

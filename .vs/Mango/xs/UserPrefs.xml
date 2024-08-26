@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{25331B5F-182F-478C-AF5B-A699B0E5800A}|http">
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{25331B5F-182F-478C-AF5B-A699B0E5800A}" ItemName="Mango.Web" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.Services.Mango.Services.CouponAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jai/Projects/AspCore/Mango/src/Services/Mango.Services.CouponAPI/Controllers/CouponAPIController.cs" relfile="src/Services/Mango.Services.CouponAPI/Controllers/CouponAPIController.cs" line="133" column="1" />
+      <Breakpoint file="/Users/jai/Projects/AspCore/Mango/src/Services/Mango.Services.CouponAPI/Controllers/CouponAPIController.cs" relfile="src/Services/Mango.Services.CouponAPI/Controllers/CouponAPIController.cs" line="131" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Services/Mango.Services.AuthAPI/appsettings.json">
+    <Files>
+      <File FileName="src/Services/Mango.Services.CouponAPI/Controllers/CouponAPIController.cs" Line="133" Column="1" IsPinned="True" />
+      <File FileName="src/FrontEnd/Mango.Web/Controllers/CouponController.cs" />
+      <File FileName="src/FrontEnd/Mango.Web/Service/BaseService.cs" />
+      <File FileName="src/Services/Mango.Services.CouponAPI/Program.cs" />
+      <File FileName="src/Services/Mango.Services.CouponAPI/Mango.Services.AuthAPI/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mango" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="Mango.Services.AuthAPI" expanded="True" />
+                <Node name="Mango.Services.CouponAPI" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.FrontEnd.Mango.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

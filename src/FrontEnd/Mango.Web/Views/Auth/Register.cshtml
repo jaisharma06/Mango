@@ -1,0 +1,54 @@
+﻿@model Mango.Web.Models.Dto.RegistrationRequestDto
+
+<div class="create-coupon-form">
+    <h1>Register</h1>
+    <hr class="separator separator-line">
+
+    <form class="create-coupon-content" asp-action="Register" method="post">
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" id="userName" type="email"></input>
+            </div>
+            <span asp-validation-for="Email" class="form-element-validator" data-valmsg-for="Email" data-valmsg-replace="false">This is a sample validation text</span>
+        </span>
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" id="userName" type="text"></input>
+            </div>
+            <span asp-validation-for="Name" class="form-element-validator" data-valmsg-for="Name" data-valmsg-replace="false">This is a sample validation text</span>
+        </span>
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="PhoneNumber">Phone Number</label>
+                <input asp-for="PhoneNumber" id="userName" type="number"></input>
+            </div>
+            <span asp-validation-for="PhoneNumber" class="form-element-validator" data-valmsg-for="Email" data-valmsg-replace="false">This is a sample validation text</span>
+        </span>
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" id="userName" type="password"></input>
+            </div>
+            <span asp-validation-for="Password" class="form-element-validator" data-valmsg-for="Password" data-valmsg-replace="false">This is a sample validation text</span>
+        </span>
+
+
+
+        <div class="create-coupon-row">
+            <a asp-controller="Auth" asp-action="Login" id="back-to-list">Login</a>
+            <input type="submit" value="Register" id="create" />
+        </div>
+    </form>
+
+</div>
+
+
+@section Scripts{
+    <script src="~/js/coupon_create_validation.js"></script>
+}

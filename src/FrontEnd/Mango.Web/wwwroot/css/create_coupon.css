@@ -72,7 +72,7 @@
 
 .create-coupon-row input {
   border-radius: 5px;
-  padding: 7px;
+  height: 40px;
   width: 70%;
   font-size: 15px;
   font-weight: 100;
@@ -81,6 +81,7 @@
 #back-to-list {
   text-decoration: none;
   border: 1px solid white;
+  border-radius:5px;
   width: 45%;
   text-align: center;
   color: white;
@@ -114,6 +115,8 @@
   justify-content: center;
   background-color: #4cbb17;
   font-weight: 900;
+  align-items: center;
+  font-size: 18px;
 }
 
 #create:hover {
@@ -122,4 +125,23 @@
 
 #create:active {
   border-color: rgba(255, 255, 255, 0.6);
+}
+
+.form-element{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+}
+
+.form-element-validator{
+  color:red;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: right;
+  align-items: flex-end;
+  font-size: 14px;
+  font-weight: 200;
+  display: none;
 }

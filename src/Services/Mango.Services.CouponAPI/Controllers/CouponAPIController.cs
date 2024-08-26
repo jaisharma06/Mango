@@ -125,11 +125,12 @@ namespace Mango.Services.CouponAPI.Controllers
         }
 
         [HttpDelete]
-        public ResponseDto Delete(int id)
+        [Route("{couponId:int}")]
+        public ResponseDto Delete(int couponId)
         {
             try
             {
-                Coupon obj = _db.Coupons.First(u => u.CouponId == id);
+                Coupon obj = _db.Coupons.First(u => u.CouponId == couponId);
                 _db.Coupons.Remove(obj);
                 _db.SaveChanges();
 

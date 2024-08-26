@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Projects\\Asp.netCore\\Mango\\src\\FrontEnd\\Mango.Web\\Mango.Web.csproj": {}
+    "/Users/jai/Projects/AspCore/Mango/src/FrontEnd/Mango.Web/Mango.Web.csproj": {}
   },
   "projects": {
-    "G:\\Projects\\Asp.netCore\\Mango\\src\\FrontEnd\\Mango.Web\\Mango.Web.csproj": {
+    "/Users/jai/Projects/AspCore/Mango/src/FrontEnd/Mango.Web/Mango.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projects\\Asp.netCore\\Mango\\src\\FrontEnd\\Mango.Web\\Mango.Web.csproj",
+        "projectUniqueName": "/Users/jai/Projects/AspCore/Mango/src/FrontEnd/Mango.Web/Mango.Web.csproj",
         "projectName": "Mango.Web",
-        "projectPath": "G:\\Projects\\Asp.netCore\\Mango\\src\\FrontEnd\\Mango.Web\\Mango.Web.csproj",
-        "packagesPath": "C:\\Users\\jaish\\.nuget\\packages\\",
-        "outputPath": "G:\\Projects\\Asp.netCore\\Mango\\src\\FrontEnd\\Mango.Web\\obj\\",
+        "projectPath": "/Users/jai/Projects/AspCore/Mango/src/FrontEnd/Mango.Web/Mango.Web.csproj",
+        "packagesPath": "/Users/jai/.nuget/packages/",
+        "outputPath": "/Users/jai/Projects/AspCore/Mango/src/FrontEnd/Mango.Web/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jaish\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

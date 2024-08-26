@@ -1,0 +1,37 @@
+﻿@model Mango.Web.Models.Dto.LoginRequestDto
+
+<div class="create-coupon-form">
+    <h1>Login</h1>
+    <hr class="separator separator-line">
+
+    <form class="create-coupon-content" asp-action="Login" method="post">
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="UserName">Username</label>
+                <input asp-for="UserName" id="userName" type="email"></input>
+            </div>
+            <span asp-validation-for="UserName" class="form-element-validator" data-valmsg-for="UserName" data-valmsg-replace="false">This is a sample validation text</span>
+        </span>
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" id="userName" type="password"></input>
+            </div>
+            <span asp-validation-for="Password" class="form-element-validator" data-valmsg-for="Password" data-valmsg-replace="false">This is a sample validation text</span>
+        </span>
+
+
+
+        <div class="create-coupon-row">
+            <a asp-controller="Auth" asp-action="Register" id="back-to-list">Register</a>
+            <input type="submit" value="Login" id="create" />
+        </div>
+    </form>
+
+</div>
+
+@section Scripts{
+    <script src="~/js/coupon_create_validation.js"></script>
+}

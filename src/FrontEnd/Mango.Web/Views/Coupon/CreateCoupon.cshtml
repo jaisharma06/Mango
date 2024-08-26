@@ -1,27 +1,43 @@
+@model Mango.Web.Models.Dto.CouponDto
+
 <div class="create-coupon-form">
     <h1>Create Coupon</h1>
     <hr class="separator separator-line">
 
-    <div class="create-coupon-content">
-        <div class="create-coupon-row">
-            <label>Coupon Code</label>
-            <input type="text"></input>
-        </div>
+    <form class="create-coupon-content" asp-action="CreateCoupon" method="post">
 
-        <div class="create-coupon-row">
-            <label>Discount Amount</label>
-            <input type="text"></input>
-        </div>
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for = "CouponCode">Coupon Code</label>
+                <input asp-for = "CouponCode" id="couponCode" type="text"></input>
+            </div>
+            <span asp-validation-for="CouponCode" class="form-element-validator" data-valmsg-for="CouponCode" data-valmsg-replace="false">This is a sample validation text</span>
+        </span>
 
-        <div class="create-coupon-row">
-            <label>Minimum Amount</label>
-            <input type="text"></input>
-        </div>
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for ="DiscountAmount">Discount Amount</label>
+                <input asp-for ="DiscountAmount" id="discountAmount" type="number" min="0" oninput="this.value = Math.abs(this.value)"></input>
+            </div>
+            <span asp-validation-for="DiscountAmount" class="form-element-validator" data-valmsg-for="DiscountAmount" data-valmsg-replace="false">This is a sample validation text</span>
+        </span>
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="MinAmount">Minimum Amount</label>
+                <input asp-for="MinAmount" id="minimumAmount" type="number" min="0" oninput="this.value = Math.abs(this.value)"></input>
+            </div>
+            <span  asp-validation-for = "MinAmount" class="form-element-validator" data-valmsg-for="MinAmount" data-valmsg-replace="false">This is a sample validation text</span>
+        </span>
 
         <div class="create-coupon-row">
             <a asp-controller="Coupon" asp-action="CouponIndex" id="back-to-list">Back to List</a>
-            <a id="create">Create</a>
+            <input type="submit" value="Create" id="create"/>
         </div>
-    </div>
+    </form>
 
 </div>
+
+@section Scripts{
+    <script src="~/js/coupon_create_validation.js"></script>
+}

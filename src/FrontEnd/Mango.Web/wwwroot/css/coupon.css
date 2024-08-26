@@ -131,20 +131,19 @@
   line-height: 43px;
 }
 
-.coupon-table-dr button {
-  border-color: rgba(0, 0, 0, 0);
-  border-radius: 10px;
-  padding: 12px;
-  background-color: #de3163;
-  color: white;
-  display: block;
-  margin: 0 auto;
-}
-
-.coupon-table-dr button:hover {
+.delete-btn:hover {
   color: #000000;
 }
 
-.coupon-table-dr button:active {
+.delete-btn:active {
   transform: scale(0.9);
+}
+
+.delete-btn{
+  border-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  background-color: #de3163;
+  padding: 12px;
+  border-radius: 10px;
+  color:white;
 }

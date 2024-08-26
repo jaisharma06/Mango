@@ -1,0 +1,37 @@
+@model Mango.Web.Models.Dto.CouponDto
+
+<div class="create-coupon-form">
+    <h1>Delete Coupon</h1>
+    <hr class="separator separator-line">
+
+    <form class="create-coupon-content" asp-action="CouponDelete" method="post">
+        <input asp-for="CouponId" hidden />
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="CouponCode">Coupon Code</label>
+                <input asp-for="CouponCode" id="couponCode" type="text"></input>
+            </div>
+        </span>
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="DiscountAmount">Discount Amount</label>
+                <input asp-for="DiscountAmount" id="discountAmount" type="number" min="0" oninput="this.value = Math.abs(this.value)"></input>
+            </div>
+        </span>
+
+        <span class="form-element">
+            <div class="create-coupon-row">
+                <label asp-for="MinAmount">Minimum Amount</label>
+                <input asp-for="MinAmount" id="minimumAmount" type="number" min="0" oninput="this.value = Math.abs(this.value)"></input>
+            </div>
+        </span>
+
+        <div class="create-coupon-row">
+            <a asp-controller="Coupon" asp-action="CouponIndex" id="back-to-list">Back to List</a>
+            <input type="submit" value="Delete" id="delete" />
+        </div>
+    </form>
+
+</div>

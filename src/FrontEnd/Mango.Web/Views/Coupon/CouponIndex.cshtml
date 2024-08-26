@@ -1,4 +1,5 @@
 @model IEnumerable<Mango.Web.Models.Dto.CouponDto>
+@using System.Globalization
 
 <div class="coupon-container">
     <div class="coupon-header">
@@ -22,9 +23,9 @@
             {
                 <div class="coupon-table-dr">
                     <div>@(item.CouponCode)</div>
-                    <div>@(item.DiscountAmount.ToString("c"))</div>
+                    <div>@(item.DiscountAmount.ToString("c", new CultureInfo("hi-IN")))</div>
                     <div>@(item.MinAmount)</div>
-                    <div><button><i class="fa fa-trash"></i></button></div>
+                    <div><a asp-action="CouponDelete" asp-route-couponId="@item.CouponId" class="delete-btn fa fa-trash"></a></div>
                 </div>
             }
         </div>

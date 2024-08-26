@@ -1,0 +1,24 @@
+#delete {
+  text-decoration: none;
+  border: 1px solid white;
+  width: 45%;
+  text-align: center;
+  color: white;
+  height: 40px;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #de3163;
+  font-weight: 900;
+  align-items: center;
+  font-size: 18px;
+}
+
+#delete:hover {
+  color: #212121;
+}
+
+#delete:active {
+  border-color: rgba(255, 255, 255, 0.6);
+}
